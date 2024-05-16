@@ -1,0 +1,152 @@
+# Log4j2 configuration in YAML format with comments
+Configuration:
+  # 定义日志文件存储位置
+  properties:
+    LOG_HOME: /home/project/springBootExample/springBootExample01/service-logs
+
+  Appenders:
+    # 控制台日志
+    consoleAppender:
+      type: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "%style{%d{ISO8601}}{bright,green} %highlight{%-5level} [%style{%t}{bright,blue}] %style{%C{}}{bright,yellow}: %msg%n%style{%throwable}{red}"
+
+    # 所有级别日志文件
+    allFileAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/all.log"
+      filePattern: "${LOG_HOME}/${date:yyyy-MM}/all-%d{yyyy-MM-dd}-%i.log.gz"
+      layout:
+        type: PatternLayout
+        pattern: "%d %p %C{} [%t] %m%n"
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy: {}
+      DefaultRolloverStrategy:
+        max: 100
+
+    # debug级别日志文件
+    debugFileAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/debug.log"
+      filePattern: "${LOG_HOME}/${date:yyyy-MM}/debug-%d{yyyy-MM-dd}-%i.log.gz"
+      layout:
+        type: PatternLayout
+        pattern: "%d %p %C{} [%t] %m%n"
+      Filters:
+        ThresholdFilter:
+          level: info
+          onMatch: DENY
+          onMismatch: NEUTRAL
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy: {}
+      DefaultRolloverStrategy:
+        max: 100
+
+    # info级别日志文件
+    infoFileAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/info.log"
+      filePattern: "${LOG_HOME}/${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log.gz"
+      layout:
+        type: PatternLayout
+        pattern: "%d %p %C{} [%t] %m%n"
+      Filters:
+        ThresholdFilter:
+          level: warn
+          onMatch: DENY
+          onMismatch: NEUTRAL
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy:
+          interval: 1
+          modulate: true
+
+    # warn级别日志文件
+    warnFileAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/warn.log"
+      filePattern: "${LOG_HOME}/${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log.gz"
+      layout:
+        type: PatternLayout
+        pattern: "%d %p %C{} [%t] %m%n"
+      Filters:
+        ThresholdFilter:
+          level: error
+          onMatch: DENY
+          onMismatch: NEUTRAL
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy: {}
+      DefaultRolloverStrategy:
+        max: 100
+
+    # error级别日志文件
+    errorFileAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/error.log"
+      filePattern: "${LOG_HOME}/${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log.gz"
+      layout:
+        type: PatternLayout
+        pattern: "%d %p %C{} [%t] %m%n"
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy: {}
+      DefaultRolloverStrategy:
+        max: 100
+
+    # json格式error级别日志文件
+    errorJsonAppender:
+      type: RollingFile
+      fileName: "${LOG_HOME}/error-json.log"
+      filePattern: "${LOG_HOME}/error-json-%d{yyyy-MM-dd}-%i.log.gz"
+      JSONLayout:
+        compact: true
+        eventEol: true
+        locationInfo: true
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: "100 MB"
+        TimeBasedTriggeringPolicy:
+          interval: 1
+          modulate: true
+
+  Loggers:
+    Root:
+      level: debug
+      AppenderRef:
+        - ref: allFileAppender
+          level: all
+        - ref: consoleAppender
+          level: debug
+        - ref: debugFileAppender
+          level: debug
+        - ref: infoFileAppender
+          level: info
+        - ref: warnFileAppender
+          level: warn
+        - ref: errorFileAppender
+          level: error
+        - ref: errorJsonAppender
+          level: error
+
+    # Spring框架的日志级别设置为debug
+    org.springframework:
+      level: debug
+
+    # druid.sql.Statement日志级别设置为warn
+    druid.sql.Statement:
+      level: warn
+
+    # mybatis日志级别设置为warn
+    com.mybatis:
+      level: warn
+
+

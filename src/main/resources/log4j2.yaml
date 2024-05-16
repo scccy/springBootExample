@@ -2,7 +2,7 @@
 Configuration:
   # 定义日志文件存储位置
   properties:
-    LOG_HOME: ./service-logs
+    LOG_HOME: /home/project/springBootExample/springBootExample01/service-logs
 
   Appenders:
     # 控制台日志
