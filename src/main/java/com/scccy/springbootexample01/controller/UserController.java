@@ -12,9 +12,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/user")
-@CrossOrigin(allowedHeaders = "*", allowCredentials = "true",
-        //允许跨域的客户端服务器
-        originPatterns = "*")  //允许当前Cotroller所有接口跨域访问
+@CrossOrigin(allowedHeaders = "*", allowCredentials = "true", originPatterns = "*")
 public class UserController {
 
     @Autowired
@@ -52,7 +50,7 @@ public class UserController {
 
     @GetMapping("/all")
     @ResponseBody
-    public ResultData getAll(@RequestParam("page") Integer page,
+        public ResultData getAll(@RequestParam("page") Integer page,
                              @RequestParam("pageSize") Integer pageSize) {
         List<User> users = userService.getAll(page, pageSize);
         return ResultData.ok().setData(users);
