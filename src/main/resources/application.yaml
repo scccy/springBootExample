@@ -1,0 +1,36 @@
+server:
+  port: 11007
+  address: 0.0.0.0
+  servlet:
+    context-path: /example
+
+spring:
+  application:
+    name: springBootExample01
+  datasource:
+    url: jdbc:mysql://192.168.32.166:3306/mybatis-example?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: asdsc88-+Q12
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 事务管理器
+transaction:
+  manager:
+    data-source: dataSource
+
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl.class
+    lazy-loading-enabled: true
+    auto-mapping-behavior: FULL
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.scccy.domain
+plugins:
+  - com.github.pagehelper.PageInterceptor
+pagehelper:
+    helper-dialect: mysql
+    reasonable: true
+    support-methods-arguments: true
