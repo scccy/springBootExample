@@ -50,27 +50,29 @@ public class UserController {
 
     @GetMapping("/all")
     @ResponseBody
-        public ResultData getAll(@RequestParam("page") Integer page,
+    public ResultData getAll(@RequestParam("page") Integer page,
                              @RequestParam("pageSize") Integer pageSize) {
         List<User> users = userService.getAll(page, pageSize);
         return ResultData.ok().setData(users);
     }
 
     //        登入页面测试 修改返回接过是utf8
-    @GetMapping(value= "/login",produces = "text/html;charset=UTF-8")
+//    @GetMapping(value= "/login",produces = "text/html;charset=UTF-8")
+    @GetMapping(value = "/login")
     @ResponseBody()
     public String login() {
         return "👴快来玩儿つぼみ";
     }
 
-//    转发
+    //    转发
     @GetMapping("/forward")
-    public String forward(){
+    public String forward() {
         return "forward:login";
     }
-//    重定向
+
+    //    重定向
     @GetMapping("/red")
-    public String redirect(){
+    public String redirect() {
         return "redirect:login";
     }
 
