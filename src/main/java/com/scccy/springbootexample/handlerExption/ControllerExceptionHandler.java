@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.HashMap;
 import java.util.Map;
 
-@RestControllerAdvice("com.scccy.springbootexample01.controller")
+@RestControllerAdvice("com.scccy.springbootexample.controller")
 public class ControllerExceptionHandler {
     // 处理缺少请求参数的异常
     @ExceptionHandler(MissingServletRequestParameterException.class)

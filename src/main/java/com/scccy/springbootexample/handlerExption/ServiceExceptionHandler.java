@@ -1,16 +1,16 @@
 package com.scccy.springbootexample.handlerExption;
 
 import com.scccy.springbootexample.common.ResultData;
-import com.scccy.springbootexample.handlerExption.GlobalExceptionHandler;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import org.springframework.web.context.request.WebRequest;
+
 
 @Slf4j
-@RestControllerAdvice({"com.scccy.springbootexample01.service"})
+@RestControllerAdvice({"com.scccy.springbootexample.service"})
 public class ServiceExceptionHandler {
     // 处理自定义异常，通常用于业务逻辑错误，例如无效的用户操作等
     @ExceptionHandler(GlobalExceptionHandler.CustomException.class)

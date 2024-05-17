@@ -22,9 +22,6 @@ spring:
 #    开启aop
   aop:
     auto: true
-# 事务管理器
-#transaction:
-#  manager:
 
 
 
@@ -36,9 +33,10 @@ mybatis:
     lazy-loading-enabled: true
     auto-mapping-behavior: FULL
   mapper-locations: classpath*:mapper/*.xml
-  type-aliases-package: com.scccy.domain
+  type-aliases-package: com.scccy.springbootexample.domain
   plugins:
     - com.github.pagehelper.PageInterceptor
+
 pagehelper:
     helper-dialect: mysql
     reasonable: true
