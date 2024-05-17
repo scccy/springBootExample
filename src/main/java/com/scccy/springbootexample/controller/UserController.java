@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/user")
-@CrossOrigin(allowedHeaders = "*", allowCredentials = "true", originPatterns = "*")
+
 public class UserController {
 
     @Autowired

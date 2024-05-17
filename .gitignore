@@ -3,3 +3,4 @@
 !/mvnw.cmd
 !/.mvn/
 !/src/main/resources/jdbc.properties
+!/service-logs/

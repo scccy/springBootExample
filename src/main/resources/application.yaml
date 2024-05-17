@@ -38,6 +38,12 @@ mybatis:
     - com.github.pagehelper.PageInterceptor
 
 pagehelper:
-    helper-dialect: mysql
-    reasonable: true
-    support-methods-arguments: true
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+usershici:
+  id: 1
+  name: shici
+  age: 18
+
