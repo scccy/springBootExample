@@ -1,7 +1,6 @@
-package com.scccy.springbootexample01.handlerExption;
+package com.scccy.springbootexample.handlerExption;
 
-
-import com.scccy.springbootexample01.common.ResultData;
+import com.scccy.springbootexample.common.ResultData;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

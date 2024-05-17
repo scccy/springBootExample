@@ -1,4 +1,4 @@
-package com.scccy.springbootexample01.domain;
+package com.scccy.springbootexample.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

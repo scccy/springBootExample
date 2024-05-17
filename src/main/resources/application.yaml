@@ -19,7 +19,9 @@ spring:
       additional-paths: src/main/java #重启目录
   freemarker:
     cache: false
-
+#    开启aop
+  aop:
+    auto: true
 # 事务管理器
 #transaction:
 #  manager:
@@ -35,8 +37,8 @@ mybatis:
     auto-mapping-behavior: FULL
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.scccy.domain
-plugins:
-  - com.github.pagehelper.PageInterceptor
+  plugins:
+    - com.github.pagehelper.PageInterceptor
 pagehelper:
     helper-dialect: mysql
     reasonable: true

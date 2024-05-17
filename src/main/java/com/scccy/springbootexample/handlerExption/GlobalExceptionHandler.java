@@ -1,9 +1,7 @@
-package com.scccy.springbootexample01.handlerExption;
+package com.scccy.springbootexample.handlerExption;
 
-
-import com.scccy.springbootexample01.common.ResultData;
+import com.scccy.springbootexample.common.ResultData;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.datasource.DataSourceException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +9,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.sql.SQLException;
-import java.sql.SQLIntegrityConstraintViolationException;
 
 @Slf4j
 @RestControllerAdvice

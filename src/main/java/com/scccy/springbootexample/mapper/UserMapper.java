@@ -1,13 +1,14 @@
-package com.scccy.springbootexample01.mapper;
+package com.scccy.springbootexample.mapper;
 
 
-import com.scccy.springbootexample01.domain.User;
+import com.scccy.springbootexample.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 @Mapper
 public interface UserMapper {
+
     int deleteByPrimaryKey(Integer userId);
 
     int insert(User record);

@@ -1,0 +1,1054 @@
+2024-05-17 10:53:24.307 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 10:53:24.319 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 10:53:24.380 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 250 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-17 10:53:24.381 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 250 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-17 10:53:26.160 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 10:53:26.171 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 10:53:26.172 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 10:53:26.173 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 10:53:26.263 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 10:53:26.264 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1881 ms
+2024-05-17 10:53:27.363 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 10:53:27.369 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 10:53:27.442 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 10:53:27.483 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 10:53:27.508 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 3.682 seconds (process running for 5.079)
+2024-05-17 10:53:28.193 CST [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 110 getConnection - HikariPool-1 - Starting...
+2024-05-17 10:53:28.213 CST [RMI TCP Connection(3)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 10:53:28.214 CST [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet 532 initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-05-17 10:53:28.216 CST [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet 554 initServletBean - Completed initialization in 2 ms
+2024-05-17 10:53:28.994 CST [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool 565 checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b67e452
+2024-05-17 10:53:29.040 CST [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 123 getConnection - HikariPool-1 - Start completed.
+2024-05-17 11:33:25.717 CST [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener 211 onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-17 11:33:25.722 CST [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Pausing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:33:25.723 CST [Thread-5] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:33:25.724 CST [Thread-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-17 11:33:25.727 CST [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Stopping ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:33:25.730 CST [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Destroying ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:33:25.737 CST [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource 350 close - HikariPool-1 - Shutdown initiated...
+2024-05-17 11:33:25.746 CST [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource 352 close - HikariPool-1 - Shutdown completed.
+2024-05-17 11:33:25.876 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:33:25.877 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:33:26.338 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:33:26.339 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:33:26.340 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:33:26.341 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:33:26.351 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:33:26.351 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 468 ms
+2024-05-17 11:33:26.772 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 11:33:26.778 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 11:33:26.823 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:33:26.828 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 11:33:26.840 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 1.037 seconds (process running for 2404.41)
+2024-05-17 11:33:26.846 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 58 onApplicationEvent - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) found beans of type 'org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration' org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-05-17 11:34:44.329 CST [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener 211 onApplicationEvent - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-05-17 11:34:44.333 CST [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Pausing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:34:44.333 CST [Thread-7] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:34:44.336 CST [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Stopping ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:34:44.338 CST [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Destroying ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:34:44.467 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:34:44.468 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:34:44.927 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:34:44.928 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:34:44.928 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:34:44.929 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:34:44.937 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:34:44.938 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 466 ms
+2024-05-17 11:34:45.215 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 11:34:45.219 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 11:34:45.241 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:34:45.245 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 11:34:45.256 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 0.866 seconds (process running for 2482.827)
+2024-05-17 11:34:45.259 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 63 onApplicationEvent - Condition evaluation unchanged
+2024-05-17 11:35:14.685 CST [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener 211 onApplicationEvent - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-05-17 11:35:14.688 CST [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Pausing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:35:14.691 CST [Thread-11] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:35:14.694 CST [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Stopping ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:35:14.696 CST [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Destroying ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:35:14.825 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:35:14.827 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:35:15.647 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:35:15.649 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:35:15.656 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:35:15.657 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:35:15.693 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:35:15.695 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 866 ms
+2024-05-17 11:35:16.253 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 11:35:16.258 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 11:35:16.278 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:35:16.283 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 11:35:16.294 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 1.544 seconds (process running for 2513.865)
+2024-05-17 11:35:16.296 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 63 onApplicationEvent - Condition evaluation unchanged
+2024-05-17 11:36:05.152 CST [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener 211 onApplicationEvent - Restarting due to 18 class path changes (0 additions, 14 deletions, 4 modifications)
+2024-05-17 11:36:05.160 CST [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Pausing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:05.161 CST [Thread-15] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:36:05.163 CST [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Stopping ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:05.165 CST [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Destroying ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:05.286 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:36:05.287 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:36:05.584 CST [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 44 warn - No MyBatis mapper was found in '[com.scccy.springbootexample]' package. Please check your configuration.
+2024-05-17 11:36:05.632 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:36:05.633 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:05.633 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:36:05.633 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:36:05.641 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:36:05.641 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 350 ms
+2024-05-17 11:36:05.780 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [/home/project/springBootExample/springBootExample/target/classes/mapper/UserMapper.xml]'
+2024-05-17 11:36:05.781 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:36:05.801 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:36:05.825 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [/home/project/springBootExample/springBootExample/target/classes/mapper/UserMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:10) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [/home/project/springBootExample/springBootExample/target/classes/mapper/UserMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [/home/project/springBootExample/springBootExample/target/classes/mapper/UserMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.3.jar:3.0.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/home/project/springBootExample/springBootExample/target/classes/mapper/UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scccy.springbootexample.domain.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scccy.springbootexample.domain.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:127) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.3.jar:3.0.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scccy.springbootexample.domain.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scccy.springbootexample.domain.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:269) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:261) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:253) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.3.jar:3.0.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scccy.springbootexample.domain.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scccy.springbootexample.domain.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:269) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:261) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:253) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.3.jar:3.0.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.scccy.springbootexample.domain.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:269) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:261) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:253) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.3.jar:3.0.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:36:37.384 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:36:37.386 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:36:37.719 CST [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 44 warn - No MyBatis mapper was found in '[com.scccy.springbootexample]' package. Please check your configuration.
+2024-05-17 11:36:37.768 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:36:37.771 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:37.771 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:36:37.772 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:36:37.779 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:36:37.779 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 391 ms
+2024-05-17 11:36:38.039 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 11:36:38.043 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 11:36:38.063 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:38.076 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 11:36:38.087 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 0.792 seconds (process running for 2595.658)
+2024-05-17 11:36:38.091 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 58 onApplicationEvent - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-05-17 11:36:39.445 CST [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener 211 onApplicationEvent - Restarting due to 15 class path changes (15 additions, 0 deletions, 0 modifications)
+2024-05-17 11:36:39.460 CST [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Pausing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:39.461 CST [Thread-19] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:36:39.463 CST [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Stopping ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:39.466 CST [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Destroying ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:39.604 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:36:39.605 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:36:39.966 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:36:39.967 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:36:39.967 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:36:39.968 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:36:39.975 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:36:39.975 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 367 ms
+2024-05-17 11:36:40.065 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:36:40.065 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:36:40.080 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:36:40.083 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:76) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:76) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:38:29.789 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:38:29.791 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:38:30.148 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:38:30.149 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:38:30.149 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:38:30.150 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:38:30.156 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:38:30.157 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 364 ms
+2024-05-17 11:38:30.243 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:38:30.244 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:38:30.255 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:38:30.258 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:38:31.719 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:38:31.720 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:38:32.077 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:38:32.078 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:38:32.078 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:38:32.078 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:38:32.085 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:38:32.085 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 362 ms
+2024-05-17 11:38:32.164 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:38:32.165 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:38:32.177 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:38:32.180 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:39:08.706 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:39:08.706 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:39:09.048 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:39:09.049 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:39:09.049 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:39:09.050 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:39:09.057 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:39:09.057 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 349 ms
+2024-05-17 11:39:09.109 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': No qualifying bean of type 'com.scccy.springbootexample.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-05-17 11:39:09.110 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:39:09.122 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:39:09.128 CST [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 40 report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.scccy.springbootexample.controller.UserController required a bean of type 'com.scccy.springbootexample.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.scccy.springbootexample.service.UserService' in your configuration.
+
+2024-05-17 11:39:10.584 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:39:10.585 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:39:11.541 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:39:11.542 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:39:11.542 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:39:11.543 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:39:11.567 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-5].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:39:11.567 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 980 ms
+2024-05-17 11:39:11.703 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:39:11.705 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:39:11.722 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:39:11.726 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:40:06.283 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:40:06.284 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:40:06.613 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:40:06.613 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:40:06.614 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:40:06.614 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:40:06.621 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-6].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:40:06.621 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 335 ms
+2024-05-17 11:40:06.701 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:40:06.702 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:40:06.715 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:40:06.718 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:40:08.186 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:40:08.188 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:40:08.546 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:40:08.547 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:40:08.548 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:40:08.548 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:40:08.555 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-7].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:40:08.555 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 365 ms
+2024-05-17 11:40:08.647 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:40:08.648 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:40:08.660 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:40:08.663 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:40:30.164 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:40:30.165 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:40:30.506 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:40:30.507 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:40:30.508 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:40:30.508 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:40:30.515 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-8].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:40:30.515 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 348 ms
+2024-05-17 11:40:30.600 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:40:30.600 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:40:30.612 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:40:30.615 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:40:32.071 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:40:32.072 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:40:32.441 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:40:32.442 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:40:32.442 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:40:32.443 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:40:32.449 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-9].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:40:32.449 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 376 ms
+2024-05-17 11:40:32.539 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:40:32.540 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:40:32.551 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:40:32.554 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:42:33.265 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 310241 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:42:33.266 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:42:33.982 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:42:33.983 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:42:33.984 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:42:33.985 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:42:33.992 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-10].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:42:33.993 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 725 ms
+2024-05-17 11:42:34.157 CST [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext 592 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+2024-05-17 11:42:34.159 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Stopping service [Tomcat]
+2024-05-17 11:42:34.173 CST [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger 82 logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-17 11:42:34.176 CST [restartedMain] ERROR org.springframework.boot.SpringApplication 822 reportFailure - Application run failed org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'txAdviceAdvisor' defined in class path resource [com/scccy/springbootexample/aspect/TransactionConfig.class]: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.scccy.springbootexample.SpringBootExampleApplication.main(SpringBootExampleApplication.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.Advisor]: Factory method 'txAdviceAdvisor' threw exception with message: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/weaver/tools/PointcutDesignatorHandler
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.tools.PointcutDesignatorHandler
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig.txAdviceAdvisor(TransactionConfig.java:75) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.CGLIB$txAdviceAdvisor$0(<generated>) ~[classes/:?]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.8.jar:6.0.8]
+	at com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0.txAdviceAdvisor(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 more
+
+2024-05-17 11:45:15.870 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 51 logStarting - Starting SpringBootExampleApplication using Java 17.0.11 with PID 325631 (/home/project/springBootExample/springBootExample/target/classes started by root in /home/project/springBootExample)
+2024-05-17 11:45:15.880 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 632 logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-17 11:45:15.935 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 250 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-17 11:45:15.935 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 250 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-17 11:45:17.363 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.366 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.387 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.413 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.421 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.427 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.430 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.434 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.435 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'transactionConfig' of type [com.scccy.springbootexample.aspect.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.442 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.443 CST [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 409 postProcessAfterInitialization - Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-17 11:45:17.893 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 11007 (http)
+2024-05-17 11:45:17.903 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:45:17.905 CST [restartedMain] INFO  org.apache.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2024-05-17 11:45:17.905 CST [restartedMain] INFO  org.apache.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-17 11:45:17.966 CST [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring embedded WebApplicationContext
+2024-05-17 11:45:17.966 CST [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 291 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2030 ms
+2024-05-17 11:45:19.177 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 59 startServer - LiveReload server is running on port 35729
+2024-05-17 11:45:19.184 CST [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-17 11:45:19.242 CST [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-0.0.0.0-11007"]
+2024-05-17 11:45:19.257 CST [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 11007 (http) with context path '/example'
+2024-05-17 11:45:19.275 CST [restartedMain] INFO  com.scccy.springbootexample.SpringBootExampleApplication 57 logStarted - Started SpringBootExampleApplication in 3.86 seconds (process running for 5.111)
+2024-05-17 11:45:19.836 CST [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 110 getConnection - HikariPool-1 - Starting...
+2024-05-17 11:45:19.837 CST [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/example] 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 11:45:19.847 CST [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet 532 initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-05-17 11:45:19.849 CST [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet 554 initServletBean - Completed initialization in 1 ms
+2024-05-17 11:45:20.609 CST [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool 565 checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b855b63
+2024-05-17 11:45:20.614 CST [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 123 getConnection - HikariPool-1 - Start completed.
+2024-05-17 11:45:27.515 CST [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource 350 close - HikariPool-1 - Shutdown initiated...
+2024-05-17 11:45:27.556 CST [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource 352 close - HikariPool-1 - Shutdown completed.

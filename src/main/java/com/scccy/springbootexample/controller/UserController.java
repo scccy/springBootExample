@@ -1,9 +1,8 @@
-package com.scccy.springbootexample01.controller;
+package com.scccy.springbootexample.controller;
 
-
-import com.scccy.springbootexample01.common.ResultData;
-import com.scccy.springbootexample01.domain.User;
-import com.scccy.springbootexample01.service.UserService;
+import com.scccy.springbootexample.common.ResultData;
+import com.scccy.springbootexample.domain.User;
+import com.scccy.springbootexample.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

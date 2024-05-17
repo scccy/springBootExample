@@ -1,1 +1,5 @@
 !/target/
+!/mvnw
+!/mvnw.cmd
+!/.mvn/
+!/src/main/resources/jdbc.properties

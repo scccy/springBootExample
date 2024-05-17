@@ -1,4 +1,4 @@
-package com.scccy.springbootexample01.common;
+package com.scccy.springbootexample.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

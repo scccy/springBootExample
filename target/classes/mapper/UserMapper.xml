@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.scccy.springbootexample01.mapper.UserMapper">
-  <resultMap id="BaseResultMap" type="com.scccy.springbootexample01.domain.User">
+<mapper namespace="com.scccy.springbootexample.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.scccy.springbootexample.domain.User">
     <!--@mbg.generated-->
     <!--@Table `user`-->
     <id column="user_id" jdbcType="INTEGER" property="userId" />
@@ -24,14 +24,14 @@
     delete from `user`
     where user_id = #{userId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.scccy.springbootexample01.domain.User">
+  <insert id="insert" parameterType="com.scccy.springbootexample.domain.User">
     <!--@mbg.generated-->
     insert into `user` (user_id, user_plan, done
       )
     values (#{userId,jdbcType=INTEGER}, #{userPlan,jdbcType=VARCHAR}, #{done,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.scccy.springbootexample01.domain.User">
+  <insert id="insertSelective" parameterType="com.scccy.springbootexample.domain.User">
     <!--@mbg.generated-->
     insert into `user`
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -57,7 +57,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.scccy.springbootexample01.domain.User">
+  <update id="updateByPrimaryKeySelective" parameterType="com.scccy.springbootexample.domain.User">
     <!--@mbg.generated-->
     update `user`
     <set>
@@ -70,7 +70,7 @@
     </set>
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.scccy.springbootexample01.domain.User">
+  <update id="updateByPrimaryKey" parameterType="com.scccy.springbootexample.domain.User">
     <!--@mbg.generated-->
     update `user`
     set user_plan = #{userPlan,jdbcType=VARCHAR},
@@ -78,7 +78,7 @@
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
 
-  <select id="getall" resultType="com.scccy.springbootexample01.domain.User">
+  <select id="getall" resultType="com.scccy.springbootexample.domain.User">
     SELECT * FROM user
   </select>
 </mapper>

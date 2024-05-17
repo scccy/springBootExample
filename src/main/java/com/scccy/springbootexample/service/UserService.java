@@ -1,7 +1,7 @@
-package com.scccy.springbootexample01.service;
+package com.scccy.springbootexample.service;
 
 
-import com.scccy.springbootexample01.domain.User;
+import com.scccy.springbootexample.domain.User;
 
 import java.util.List;
 

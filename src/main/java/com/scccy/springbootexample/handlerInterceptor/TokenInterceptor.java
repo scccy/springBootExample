@@ -1,4 +1,4 @@
-package com.scccy.springbootexample01.handlerInterceptor;
+package com.scccy.springbootexample.handlerInterceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
